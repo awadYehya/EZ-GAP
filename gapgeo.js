@@ -81,3 +81,5 @@ GAP.Geo = (function () {
 		}
 	};
 }());
+
+/* (C) Yehya Awad 2015 */
