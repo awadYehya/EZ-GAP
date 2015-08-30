@@ -26,16 +26,19 @@ So for ```GAP.Geo``` we would include these:
 **Step 2**
 
 Then you just use it in your code.  
-So ```GAP.Geo``` has a couple of methods like ```GAP.Geo.updateLocation();``` or
+So ```GAP.Geo``` has a couple of methods like ```GAP.Geo.updateLocation();``` and
  ```GAP.Geo.getCoords();``` and a few others that we can use. So let's try that:
  
  ```javascript
  // Updating geo-location coordinates
  GAP.Geo.updateLocation();
+ 
  // Getting cached coordinates
  var userLocation = GAP.Geo.getCoords();
+ 
  // Logging user location in the console
  console.log("X: " + userLocation.x + " Y: " + userLocation.y);
+ 
  ```
  
 _**(C) Yehya Awad 2015**_
